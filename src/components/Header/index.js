@@ -1,6 +1,7 @@
 import React, { Component } from "react";
-import { Route, Navigate, HashRouter } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 import Navigation from "../../components/Navigation";
+import About from "../../components/About";
 
 class Header extends Component {
     render() {
@@ -9,9 +10,16 @@ class Header extends Component {
                 <header>
                     <Navigation />
                 </header>
+
+                <div className="content">
+                <About />
+                </div>
             </HashRouter>
         )
     }
 }
+
+
+
 
 export default Header;
