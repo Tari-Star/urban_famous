@@ -3,13 +3,14 @@ import {
   HashRouter,
   Route, Switch,
   Redirect,
-} from "react-router-dom";
+} from "react-router-dom";// for redirection
 import Navigation from "../../components/Navigation";
 import About from "../../components/About";
 import Contact from "../../components/Contact";
 import Portfolio from "../../components/Portfolio";
 import Resume from "../../components/Resume";
 
+//component that appears on multiple pages
 function Header() {
   return (
     <HashRouter>

@@ -1,5 +1,6 @@
 import React from "react";
 
+// component that appears on multiple pages
 function Footer() {
 return (
     <footer className="footer bg-dark fixed-bottom">

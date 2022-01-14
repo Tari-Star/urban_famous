@@ -276,7 +276,7 @@ textarea {
 }
 
 .card {
-  background-color: var(--dark);
+  background-color: var(--darker);
   border-radius: 5px;
   height: 400px;
   margin: 2rem;
@@ -285,39 +285,29 @@ textarea {
   box-shadow: 0 2px 2px var(--cultured), 0 6px 12px var(--cultured);
 }
 .card .img-container {
-  height: 75%;
+  height: 65%;
   overflow: hidden;
   text-align: center;
   border-radius: 10px;
-  background-color: var(--dark);
+  background-color: var(--darker);
 }
-
-.card .img-container {
-  position: relative;
+.card .img-container img {
   width: 100%;
-  padding: 25px;
-  margin-bottom: 20px;
-  background-color: var(--dark);
+  padding: 15px;
+  margin-bottom: 5px;
+  background-color: var(--white);
 }
 
-.t-content {
-  position: absolute;
-  top: 80%;
-  left: 20%;
-  opacity: 0.1;
-
- 
-}
-.t-content .project-icon {
+.card .content {
   font-size: 18px;
-  font-weight: bold; 
+  background-color: var(--darker);
+  color: var(--cultured);
+  font-weight: bold;
   text-align: center;
 }
-.t-content:hover {
-  opacity: 0.3;
-}
-.card p {
-  color: var(--dark);
+.card-title{
+ margin-top: 0;
+  color: var(--light);
 }
 
 .project-title {
@@ -325,18 +315,14 @@ textarea {
   background-color: var(--light);
 }
 
+.project-icons-container {
+  background-color: var(--white);
+}
+
 .project-icon {
   background-color: var(--light);
   padding: 5px;
 }
-
-.topics {
-  font-size: small;
-  font-style: italic;
-  color: var(--cultured);
-  background-color: var(--dark)
-}
-
 
 .footer { 
   display: flex; 
@@ -354,33 +340,6 @@ textarea {
   margin-bottom: 50px;
   cursor: pointer;
 }
-.modalBackdrop {
-	background: rgba(0, 0, 0, .65);
-	bottom: 0;
-	left: 0;
-	overflow: auto;
-	position: fixed;
-	right: 0;
-	top: 0;
-	z-index: 1;
-}
-
-.modalContainer {
-	background: var(--darker);
-	border-radius: 5px;
-	max-width: 100%;
-	margin: 50px auto;
-	padding: 15px;
-	width: 960px;
-}
-
-.modalTitle {
-	font-size: 18px;
-	font-weight: 600;
-	margin-bottom: 25px;
-}
-
-
 button {
 	background: var(--primary);
 	border: 0;
