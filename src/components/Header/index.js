@@ -1,25 +1,34 @@
-import React, { Component } from "react";
-import { HashRouter } from "react-router-dom";
+import React from "react";
+import {
+  HashRouter,
+  Route, Switch,
+  Redirect,
+} from "react-router-dom";
 import Navigation from "../../components/Navigation";
 import About from "../../components/About";
+import Contact from "../../components/Contact";
+import Portfolio from "../../components/Portfolio";
+import Resume from "../../components/Resume";
 
-class Header extends Component {
-    render() {
-        return (
-            <HashRouter>
-                <header>
-                    <Navigation />
-                </header>
-
-                <div className="content">
-                <About />
-                </div>
-            </HashRouter>
-        )
-    }
+function Header() {
+  return (
+    <HashRouter>
+      <header>
+      <Navigation />
+      </header>
+      <Switch>
+        <Route exact path="/">
+          <Redirect to="/about" />
+        </Route>
+        <Route path="/about">
+          <About />
+        </Route>
+        <Route path="/portfolio" component={Portfolio}/>
+        <Route path="/contact" component={Contact}/>
+        <Route path="/resume" component={Resume}/>
+        </Switch>
+    </HashRouter>
+  );
 }
-
-
-
 
 export default Header;

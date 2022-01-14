@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Anytime Budget",
+    "image": "https://github.com/Tari-Star/anytime_budget_19/raw/main/images/budget.png",
+    "github": "https://github.com/Tari-Star/Anytime_budget_19",
+    "deploy": "https://anytime-budget-19.herokuapp.com"
+  },
+  {
+    "id": 2,
+    "name": "Code Quiz",
+    "image": "https://github.com/Tari-Star/supreme-train/raw/main/assets/images/quiz.png",
+    "github": "https://github.com/Tari-Star/supreme-train",
+    "deploy": "https://tari-star.github.io/supreme-train/"
+  },
+  {
+    "id": 3,
+    "name": "Find My Stylist",
+    "image": "https://github.com/Tari-Star/Find-My-Stylist/raw/main/public/images/project2.png",
+    "github": "https://github.com/Tari-Star/Find-My-Stylist",
+    "deploy": "hhttps://find-my-stylist.herokuapp.com/"
+  },
+  {
+    "id": 4,
+    "name": "Note Taker",
+    "image": "https://github.com/Tari-Star/Challenge-11-NoteTaker/raw/main/assets/images/c11-note-taker.png",
+    "github": "https://github.com/Tari-Star/Challenge-11-NoteTaker.git",
+    "deploy": "https://cha11-note-taker.herokuapp.com"
+  },
+  {
+    "id": 5,
+    "name": "Weather Dashboard",
+    "image": "https://github.com/Tari-Star/anytime_budget_19/raw/main/images/budget.png",
+    "github": "https://github.com/Tari-Star/shiny-guide",
+    "deploy": "https://tari-star.github.io/shiny-guide/"
+  },
+  {
+    "id": 6,
+    "name": "Day Scheduler",
+    "image": "https://github.com/Tari-Star/scheduler-challenge-5/raw/main/assets/image/challenge-5.png",
+    "github": "https://github.com/Tari-Star/scheduler-challenge-5",
+    "deploy": "  https://tari-star.github.io/scheduler-challenge-5/"
+  }
+]

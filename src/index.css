@@ -144,7 +144,7 @@ form {
 input {
   font-size: 1rem;
   padding: 0.25rem;
-  border: 1px solid var(--dark);
+  border: 1px solid var(--light);
   outline: none;
   border-radius: 3px;
   transition: box-shadow 0.2s;
@@ -292,37 +292,41 @@ textarea {
   background-color: var(--dark);
 }
 
-.card .img-container img {
+.card .img-container {
+  position: relative;
   width: 100%;
   padding: 25px;
   margin-bottom: 20px;
   background-color: var(--dark);
 }
 
-.card .content {
+.t-content {
+  position: absolute;
+  top: 80%;
+  left: 20%;
+  opacity: 0.1;
+
+ 
+}
+.t-content .project-icon {
   font-size: 18px;
-  background-color: var(--dark);
-  color: var(--cadet-blue);
-  font-weight: bold;
+  font-weight: bold; 
   text-align: center;
 }
-
-.card-title{
-  margin-top: 10px;
-  color: var(--eerie-black);
+.t-content:hover {
+  opacity: 0.3;
+}
+.card p {
+  color: var(--dark);
 }
 
 .project-title {
   color: var(--cultured);
-  background-color: var(--dark);
-}
-
-.project-icons-container {
-  background-color: var(--dark);
+  background-color: var(--light);
 }
 
 .project-icon {
-  background-color: var(--dark);
+  background-color: var(--light);
   padding: 5px;
 }
 

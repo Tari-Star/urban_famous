@@ -1,35 +1,44 @@
 import React from "react";
 import { Navbar } from "react-bootstrap";
+import { NavLink } from "react-router-dom";
 
-function Navigation(props) {
+//navigation with titles
+function Navigation() {
   return (
     <div>
-    <Navbar  className ="flex-row" expand="lg" sticky="top">
-     
-        <h4 class="nav-title-font">
-          <a class="text-dark" href="/">Bota Seri</a>
-        </h4>
-     
-      <nav>
-      <ul class="flex-row navitem-indent">
-        <li class="mx-2 nav-item">
-            <a class="nav-font text-dark" href = "/about">About</a>
-        </li>
+      <Navbar className="flex-row" expand="lg" sticky="top">
+        <NavLink activeClassName="navbar__link--active" to="/">
+          <div class="text-dark">
+            <h4 class="nav-title-font">Bota Seri</h4>
+          </div>
+        </NavLink>
 
-        <li class="mx-2 nav-item">
-            <a class="nav-font text-dark" href = "/portfolio">Portfolio</a>
-        </li>
-        <li class="mx-2 nav-item">
-            <a class="nav-font text-dark" href = "/contact">Contact</a>
-        </li>
+        <ul class="flex-row navbar-nav ml-auto navitem-indent">
+          <li class="nav-item">
+            <NavLink to="/about">
+              <div class="nav-font text-dark">About</div>
+            </NavLink>
+          </li>
 
-        <li class="mx-2 nav-item">
-            <a class="nav-font text-dark" href = "/resume">Resume</a>
-        </li>
+          <li class="nav-item">
+            <NavLink to="/portfolio">
+              <div class="nav-font text-dark">Portfolio</div>
+            </NavLink>
+          </li>
 
-      </ul>
-      </nav>
-    </Navbar>
+          <li class="mx-2 nav-item">
+            <NavLink to="/contact">
+              <div class="nav-font text-dark">Contact</div>
+            </NavLink>
+          </li>
+
+          <li class="mx-2 nav-item">
+            <NavLink to="/resume">
+              <div class="nav-font text-dark">Resume</div>
+            </NavLink>
+          </li>
+        </ul>
+      </Navbar>
     </div>
   );
 }
