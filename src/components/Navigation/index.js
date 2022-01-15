@@ -7,34 +7,50 @@ function Navigation() {
   return (
     <div>
       <Navbar className="flex-row" expand="lg" sticky="top">
-        <NavLink activeClassName="navbar__link--active" to="/">
+        <NavLink   to="/">
           <div class="text-dark">
-            <h4 class="nav-title-font">Bota Seri</h4>
+            <h4 className="nav-title-font">Bota Seri</h4>
           </div>
         </NavLink>
 
-        <ul class="flex-row navbar-nav ml-auto navitem-indent">
-          <li class="nav-item">
-            <NavLink to="/about">
-              <div class="nav-font text-dark">About</div>
+        <ul class="flex-row navbar-nav">
+          <li className="mx-2">
+            <NavLink
+              activeClassName="navbar__link--active"
+              className="navbar__link"
+              to="/about"
+            >
+              <div>About</div>
             </NavLink>
           </li>
 
-          <li class="nav-item">
-            <NavLink to="/portfolio">
-              <div class="nav-font text-dark">Portfolio</div>
+          <li className="mx-2">
+            <NavLink
+              activeClassName="navbar__link--active"
+              className="navbar__link"
+              to="/portfolio"
+            >
+              <div>Portfolio</div>
             </NavLink>
           </li>
 
-          <li class="mx-2 nav-item">
-            <NavLink to="/contact">
-              <div class="nav-font text-dark">Contact</div>
+          <li className="mx-2">
+            <NavLink
+              activeClassName="navbar__link--active"
+              className="navbar__link"
+              to="/contact"
+            >
+              <div>Contact</div>
             </NavLink>
           </li>
 
-          <li class="mx-2 nav-item">
-            <NavLink to="/resume">
-              <div class="nav-font text-dark">Resume</div>
+          <li className="mx-2">
+            <NavLink
+              activeClassName="navbar__link--active"
+              className="navbar__link"
+              to="/resume"
+            >
+              <div>Resume</div>
             </NavLink>
           </li>
         </ul>

@@ -1,5 +1,6 @@
 import React from "react";
 
+// link to a downloadable resume and a list of the proficiencies
 function Resume() {
   return (
     <section class="container">
