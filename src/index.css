@@ -311,8 +311,7 @@ textarea {
 }
 
 .project-title {
-  color: var(--cultured);
-  background-color: var(--light);
+ color: var(--light);
 }
 
 .project-icons-container {
@@ -320,8 +319,9 @@ textarea {
 }
 
 .project-icon {
-  background-color: var(--light);
+  /* background-color: var(--light); */
   padding: 5px;
+  border-radius: 50%;
 }
 
 .footer .my-contacts { 

@@ -8,7 +8,7 @@ function Resume() {
       <div>
         <div class="mt-5">
         <a href="https://github.com/Tari-Star/urban_famous/raw/main/docx/Bota_Seri_Resume.docx"
-            class="link"><h4>Download my  Resume</h4></a>
+            class="link"><h4>Download my Resume</h4></a>
         </div>
       </div>
 
