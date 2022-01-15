@@ -40,17 +40,22 @@ function ContactForm() {
 
 return (
     <section className="container">
-        <h2 className="top-title">Contact Form</h2>
+        <h2 className="top-title">Contact Me</h2>
+        <hr></hr>
+        <div class = "my-contacts">
+        <a href="mailto:tari.star.g@gmail.com"><span>&#9993;</span> tari.star.g@gmail.com</a>
+        <a href="tel:7273189794"><span>&#9742;</span> 727.318.9794</a>
+        </div>
         <hr></hr>
         <form id="contact-form" onSubmit={handleSubmit}>
             <div class="mt-5" >
-                <label htmlFor="name">Name:</label>
+                <label htmlFor="name">Name: </label>
                 <input class="form-control" type="text" name="name"  defaultValue={name} onBlur={handleChange}/>
-            </div>
+            </div><br/>
             <div class="mt-5" >
-                <label htmlFor="email">Email Address:</label>
+                <label htmlFor="email">Email: </label>
                 <input class="form-control" type="email"  name="email" defaultValue={email} onBlur={handleChange} />
-            </div>
+            </div><br/>
             <div class="mt-5" >
                 <label htmlFor="message">Message:</label>
                 <textarea class="form-control" name="message" defaultValue={message} onBlur={handleChange} rows="5" />

@@ -10,7 +10,7 @@ main {
 :root {
   --primary: coral;
   --secondary: #F3A847;
-  --tertiary: #B12704;
+  --tertiary: #753b2d;
   --light: #fafafa;
   --cultured: #A3A3A3;
   --dark: rgb(64, 63, 75);
@@ -109,17 +109,17 @@ header a {
 }
 
 button {
-  font-size: 1rem;
-  text-decoration: none;
-  padding: 0.25rem 1rem;
-  border-radius: .5rem;
-  border: none;
+	background: var(--primary);
+	border: none;
   outline: none;
-  cursor: pointer;
-  margin: 0 1px;
-  background-color: var(--secondary);
+	border-radius: 5px;
+	color: #fff;
+	cursor: pointer;
+	font-size: 16px;
+	font-weight: 600;
+	margin-bottom: 30px;
+	padding: 10px 15px;	
 }
-
 button:hover {
   opacity: .8;
 }
@@ -152,7 +152,7 @@ input {
 
 input:focus {
   border: 1px solid var(--secondary);
-  box-shadow: 0 0 .25rem rgba(0, 0, 0, .5);
+  box-shadow: 0 0 .25rem rgba(238, 229, 229, 0.5);
 }
 
 li {
@@ -324,10 +324,11 @@ textarea {
   padding: 5px;
 }
 
-.footer { 
+.footer .my-contacts { 
   display: flex; 
   align-items: center; 
   justify-content: center; 
+  background-color: var(--cultured);
 } 
 
 .icon {
@@ -340,17 +341,7 @@ textarea {
   margin-bottom: 50px;
   cursor: pointer;
 }
-button {
-	background: var(--primary);
-	border: 0;
-	border-radius: 5px;
-	color: #fff;
-	cursor: pointer;
-	font-size: 16px;
-	font-weight: 600;
-	margin-bottom: 30px;
-	padding: 10px 15px;	
-}
+
 
 a {
 	border-radius: 5px;
@@ -361,7 +352,8 @@ a {
 	margin-right: -2px;
 	
 }
-
+/* check */
 .navActive {
   color: var(--secondary);
 }
+
