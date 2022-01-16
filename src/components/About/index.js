@@ -1,13 +1,14 @@
 import React from "react";
 
+//section with avatar and short bio
 function About() {
   return (
     <section className="container">
-      <h2 class = "top-title">About Me</h2>
+      <h2 className="top-title">Hi, I'm Bota!</h2>
       <hr></hr>
-      <div>
+      <div className="bio">
         <img
-          class="mb-5 avatar"
+          className="mb-5 avatar"
           src="https://avatars.githubusercontent.com/u/89365355?v=4"
           alt="Bota Seri"
         />
@@ -27,7 +28,6 @@ function About() {
           enjoying the year-round summer!
         </p>
       </div>
-      <hr></hr>
     </section>
   );
 }

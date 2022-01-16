@@ -3,17 +3,21 @@ import React from "react";
 // link to a downloadable resume and a list of the proficiencies
 function Resume() {
   return (
-    <section class="container">
+    <section className="container">
       <h2 className="top-title">Resume</h2>
       <hr></hr>
       <div>
-        <div class="mt-5">
-        <a href="https://github.com/Tari-Star/urban_famous/raw/main/docx/Bota_Seri_Resume.docx"
-            class="link"><h4>Download my Resume</h4></a>
+        <div>
+          <a
+            href="https://github.com/Tari-Star/urban_famous/raw/main/docx/Bota_Seri_Resume.docx"
+            className="link"
+          >
+            <h3>Download my Resume</h3>
+          </a>
         </div>
       </div>
 
-      <div class="justify-content-center mt-5">
+      <div className="justify-content-center">
         <div>
           <h2 className="top-title">Front-end Proficiencies</h2>
           <ul>

@@ -1,9 +1,8 @@
 import React from "react";
-import {
-  HashRouter,
-  Route, Switch,
-  Redirect,
-} from "react-router-dom";// for redirection
+
+//used older version of 'react-router-dom' to use Switch and Redirect
+import { HashRouter, Route, Switch, Redirect } from "react-router-dom"; 
+
 import Navigation from "../../components/Navigation";
 import About from "../../components/About";
 import Contact from "../../components/Contact";
@@ -15,7 +14,7 @@ function Header() {
   return (
     <HashRouter>
       <header>
-      <Navigation />
+        <Navigation />
       </header>
       <Switch>
         <Route exact path="/">
@@ -24,10 +23,10 @@ function Header() {
         <Route path="/about">
           <About />
         </Route>
-        <Route path="/portfolio" component={Portfolio}/>
-        <Route path="/contact" component={Contact}/>
-        <Route path="/resume" component={Resume}/>
-        </Switch>
+        <Route path="/portfolio" component={Portfolio} />
+        <Route path="/contact" component={Contact} />
+        <Route path="/resume" component={Resume} />
+      </Switch>
     </HashRouter>
   );
 }

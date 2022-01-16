@@ -8,16 +8,13 @@ main {
   padding: 50px 30px;
 }
 :root {
-  --primary: rgb(228, 74, 18);
-  --secondary: #f3a847;
-  --tertiary: #a3a3a3;
+  --primary: coral;
+  --secondary: #a3a3a3;
   --light: #fafafa;
-  --dark: rgb(64, 63, 75);
-  --darker: #111111;
+  --dark: rgb(59, 56, 94);
+  --darker: rgb(64, 63, 75);
   --error: rgb(228, 46, 1);
-  --spacing-one: calc(1rem * 0.5);
-  --spacing-two: calc(1rem);
-  --spacing-five: calc(2.5rem);
+  --spacing: calc(1rem);
 }
 
 * {
@@ -41,42 +38,13 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "Roboto", sans-serif;
+h2 {
+  font-size: 2rem;
+  font-family: "Abril Fatface", "Roboto", sans-serif;
+  color: var(--light);
   font-weight: 500;
   margin: 5px 0;
   line-height: 1.25;
-}
-
-h1 {
-  font-size: 2.25rem;
-}
-
-h2 {
-  font-size: 2rem;
-  font-family: "Abril Fatface";
-  color: var(--light);
-}
-
-h3 {
-  font-size: 1.75rem;
-}
-
-h4 {
-  font-size: 1.5rem;
-}
-
-h5 {
-  font-size: 1.25rem;
-}
-
-h6 {
-  font-size: 1rem;
 }
 
 p {
@@ -145,18 +113,22 @@ input {
   border: 1px solid var(--light);
   outline: none;
   border-radius: 3px;
-  transition: box-shadow 0.2s;
+  transition: box-shadow 0.2s var(--secondary);
 }
 
 input:focus {
-  border: 1px solid var(--secondary);
-  box-shadow: 0 0 0.25rem rgba(238, 229, 229, 0.5);
+  border: 1px solid var(--darker);
+  box-shadow: 0 0 0.25rem var(--secondary);
+}
+
+.error-text {
+  color: var(--error);
 }
 
 li {
   list-style: none;
 }
-/*  */
+
 .navbar {
   display: flex;
   justify-content: center;
@@ -170,38 +142,31 @@ li {
   font-size: 1.5em;
   cursor: pointer;
   text-decoration: none;
-  letter-spacing: .3em;
-  text-indent: .3em;
-  color:  var(--darker);
+  letter-spacing: 0.3em;
+  text-indent: 0.3em;
+  color: var(--darker);
   border-bottom: 3px solid transparent;
 }
 
 .navbar__link:hover {
-  transform: translateY(-2px);
+  color: var(--secondary);
 }
 
 .navbar__link--active {
-  color:  var(--primary);
-  transition: border-bottom .5s ease-in-out;
+  color: var(--primary);
+  transition: border-bottom 0.5s ease-in-out;
 }
-/*  */
-
 
 .nav-title-font {
   font-family: "Days One";
   font-size: 2em;
-  /* margin-top: 15px; */
+  margin-right: 30%;
 }
 
 .top-title {
   font-family: "Oswald";
   margin-top: 20px;
 }
-
-/* .navbar-nav > li {
-  margin-left: 30px;
-  margin-right: 30px;
-} */
 
 nav a:hover {
   text-decoration: none;
@@ -214,7 +179,7 @@ nav li {
 textarea {
   width: 600px;
   height: 120px;
-  border: 3px solid #cccccc;
+  border: 3px solid var(--secondary);
   padding: 5px;
 }
 
@@ -234,49 +199,9 @@ textarea {
   justify-content: space-between;
 }
 
-.mx-1 {
-  margin-right: var(--spacing-one);
-  margin-left: var(--spacing-one);
-}
-
-.mx-2 {
-  margin-right: var(--spacing-two);
-  margin-left: var(--spacing-two);
-}
-
-.my-1 {
-  margin-top: var(--spacing-one);
-  margin-bottom: var(--spacing-one);
-}
-
-.my-2 {
-  margin-top: var(--spacing-two);
-  margin-bottom: var(--spacing-two);
-}
-
-.my-5 {
-  margin-top: var(--spacing-five);
-  margin-bottom: var(--spacing-five);
-}
-
-.px-1 {
-  padding-right: var(--spacing-one);
-  padding-left: var(--spacing-one);
-}
-
-.px-2 {
-  padding-right: var(--spacing-two);
-  padding-left: var(--spacing-two);
-}
-
-.py-1 {
-  padding-top: var(--spacing-one);
-  padding-bottom: var(--spacing-one);
-}
-
-.py-2 {
-  padding-top: var(--spacing-two);
-  padding-bottom: var(--spacing-two);
+.mx {
+  margin-right: var(--spacing);
+  margin-left: var(--spacing);
 }
 
 .wrapper {
@@ -291,49 +216,52 @@ textarea {
 }
 
 .card {
+  position: absolute;
   background-color: var(--darker);
   border-radius: 5px;
-  height: 400px;
-  margin: 2rem;
+  height: 300px;
+  margin: 3rem 2rem;
   position: relative;
   width: 400px;
-  box-shadow: 0 2px 2px var(--tertiary), 0 6px 12px var(--tertiary);
+  box-shadow: 0 2px 2px var(--secondary), 0 6px 12px var(--secondary);
 }
+
 .card .img-container {
-  height: 65%;
   overflow: hidden;
   text-align: center;
   border-radius: 10px;
   background-color: var(--darker);
 }
-.card .img-container img {
-  width: 100%;
-  padding: 15px;
-  margin-bottom: 5px;
-  background-color: var(--white);
-}
 
 .card .content {
+  position: absolute;
+  opacity: 0;
   font-size: 18px;
-  background-color: var(--darker);
-  color: var(--tertiary);
+  background-color: transparent;
+  top: 25%;
+  left: 28%;
   font-weight: bold;
   text-align: center;
 }
+
+.card .content:hover {
+  opacity: 1;
+}
+
+.card .img-container img {
+  width: 100%;
+  margin-top: 5px;
+  padding: 15px;
+}
+
 .card-title {
+  font-family: "Oswald";
+  font-size: 1.5em;
   margin-top: 0;
-  color: var(--light);
+  color: var(--primary);
 }
 
-.project-title {
-  color: var(--light);
-}
-
-.project-icons-container {
-  background-color: var(--white);
-}
-
-.project-icon {
+img .project-icon {
   padding: 5px;
   border-radius: 50%;
 }
@@ -342,7 +270,7 @@ textarea {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: var(--tertiary);
+  background-color: var(--secondary);
 }
 
 .icon {

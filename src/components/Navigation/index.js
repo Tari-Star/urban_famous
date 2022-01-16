@@ -6,25 +6,23 @@ import { NavLink } from "react-router-dom";
 function Navigation() {
   return (
     <div>
-      <Navbar className="flex-row" expand="lg" sticky="top">
-        <NavLink   to="/">
-          <div class="text-dark">
-            <h4 className="nav-title-font">Bota Seri</h4>
-          </div>
+      <Navbar className="flex-row" sticky="top">
+        <NavLink className="nav-title-font" to="/">
+          Bota Seri
         </NavLink>
 
-        <ul class="flex-row navbar-nav">
-          <li className="mx-2">
+        <ul className="flex-row navbar-nav">
+          <li className="mx">
             <NavLink
               activeClassName="navbar__link--active"
               className="navbar__link"
               to="/about"
             >
-              <div>About</div>
+            <div>About</div> 
             </NavLink>
           </li>
 
-          <li className="mx-2">
+          <li className="mx">
             <NavLink
               activeClassName="navbar__link--active"
               className="navbar__link"
@@ -34,7 +32,7 @@ function Navigation() {
             </NavLink>
           </li>
 
-          <li className="mx-2">
+          <li className="mx">
             <NavLink
               activeClassName="navbar__link--active"
               className="navbar__link"
@@ -44,7 +42,7 @@ function Navigation() {
             </NavLink>
           </li>
 
-          <li className="mx-2">
+          <li className="mx">
             <NavLink
               activeClassName="navbar__link--active"
               className="navbar__link"

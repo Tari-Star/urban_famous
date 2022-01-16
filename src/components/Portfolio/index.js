@@ -5,7 +5,7 @@ import portfolio from "../../portfolio.json";
 function Wrapper(props) {
   return <div className="wrapper">{props.children}</div>;
 }
-// Component displays all projects
+// Component displays all project cards
 function Portfolio() {
   return (
     <section className="container">
