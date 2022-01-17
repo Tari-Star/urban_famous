@@ -1,10 +1,10 @@
 [
   {
     "id": 1,
-    "name": "Anytime Budget",
-    "image": "https://github.com/Tari-Star/anytime_budget_19/raw/main/images/budget.png",
-    "github": "https://github.com/Tari-Star/Anytime_budget_19",
-    "deploy": "https://anytime-budget-19.herokuapp.com"
+    "name": "Weather Dashboard",
+    "image": "https://github.com/Tari-Star/shiny-guide/raw/main/assets/image/weather.png",
+    "github": "https://github.com/Tari-Star/shiny-guide",
+    "deploy": "https://tari-star.github.io/shiny-guide/"
   },
   {
     "id": 2,
@@ -15,24 +15,24 @@
   },
   {
     "id": 3,
-    "name": "Find My Stylist",
-    "image": "https://github.com/Tari-Star/Find-My-Stylist/raw/main/public/images/project2.png",
-    "github": "https://github.com/Tari-Star/Find-My-Stylist",
-    "deploy": "hhttps://find-my-stylist.herokuapp.com/"
+    "name": "Team Profile",
+    "image": "https://github.com/Tari-Star/Challenge10-TeamProfile/raw/main/assets/images/c10.png",
+    "github": "https://github.com/Tari-Star/Challenge10-TeamProfile",
+    "deploy": "https://tari-star.github.io/Challenge10-TeamProfile/"
   },
   {
     "id": 4,
+    "name": "Anytime Budget",
+    "image": "https://github.com/Tari-Star/anytime_budget_19/raw/main/images/budget.png",
+    "github": "https://github.com/Tari-Star/Anytime_budget_19",
+    "deploy": "https://anytime-budget-19.herokuapp.com"
+  },
+  {
+    "id": 5,
     "name": "Note Taker",
     "image": "https://github.com/Tari-Star/Challenge-11-NoteTaker/raw/main/assets/images/c11-note-taker.png",
     "github": "https://github.com/Tari-Star/Challenge-11-NoteTaker.git",
     "deploy": "https://cha11-note-taker.herokuapp.com"
-  },
-  {
-    "id": 5,
-    "name": "Weather Dashboard",
-    "image": "https://github.com/Tari-Star/anytime_budget_19/raw/main/images/budget.png",
-    "github": "https://github.com/Tari-Star/shiny-guide",
-    "deploy": "https://tari-star.github.io/shiny-guide/"
   },
   {
     "id": 6,

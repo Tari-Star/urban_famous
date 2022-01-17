@@ -37,7 +37,6 @@ body {
   color: var(--light);
   font-family: Arial, Helvetica, sans-serif;
 }
-
 h2 {
   font-size: 2rem;
   font-family: "Abril Fatface", "Roboto", sans-serif;
@@ -46,12 +45,10 @@ h2 {
   margin: 5px 0;
   line-height: 1.25;
 }
-
 p {
   font-size: 1.1rem;
   margin-top: 0;
 }
-
 a {
   text-decoration: none;
   font-weight: bold;
@@ -61,20 +58,17 @@ a {
   padding: 2px 4px;
   margin-left: -2px;
   margin-right: -2px;
+  opacity: 0.7;
 }
-
 a:hover {
-  text-decoration: underline;
+  opacity: 1.0;
 }
-
 header {
   background-image: url("../src/assets/bg-image/bckgrnd.jpg");
 }
-
 header a {
   color: var(--dark);
 }
-
 button {
   background: var(--primary);
   border: none;
@@ -90,7 +84,6 @@ button {
 button:hover {
   opacity: 0.8;
 }
-
 button[disabled] {
   cursor: default;
   opacity: 0.8;
@@ -99,14 +92,12 @@ button[disabled] {
   max-height: 200px;
   border-radius: 200px;
 }
-
 form {
   width: 40%;
   text-align: left;
   margin-top: 25px;
   margin-bottom: 70px;
 }
-
 input {
   font-size: 1rem;
   padding: 0.25rem;
@@ -115,27 +106,22 @@ input {
   border-radius: 3px;
   transition: box-shadow 0.2s var(--secondary);
 }
-
 input:focus {
   border: 1px solid var(--darker);
   box-shadow: 0 0 0.25rem var(--secondary);
 }
-
 .error-text {
   color: var(--error);
 }
-
 li {
   list-style: none;
 }
-
 .navbar {
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 4px;
 }
-
 .navbar__link {
   margin: 1em;
   font-family: "Audiowide";
@@ -147,63 +133,48 @@ li {
   color: var(--darker);
   border-bottom: 3px solid transparent;
 }
-
 .navbar__link:hover {
   color: var(--secondary);
 }
-
 .navbar__link--active {
   color: var(--primary);
   transition: border-bottom 0.5s ease-in-out;
 }
-
 .nav-title-font {
   font-family: "Days One";
   font-size: 2em;
   margin-right: 30%;
 }
-
 .top-title {
   font-family: "Oswald";
   margin-top: 20px;
 }
-
-nav a:hover {
-  text-decoration: none;
-}
-
 nav li {
   cursor: pointer;
 }
-
 textarea {
   width: 600px;
   height: 120px;
   border: 3px solid var(--secondary);
   padding: 5px;
 }
-
 .container {
   width: 85%;
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
 }
-
 .flex-row {
   display: flex;
   flex-wrap: wrap;
 }
-
 .space-between {
   justify-content: space-between;
 }
-
 .mx {
   margin-right: var(--spacing);
   margin-left: var(--spacing);
 }
-
 .wrapper {
   padding-top: 50px;
   justify-content: space-around;
@@ -214,25 +185,22 @@ textarea {
   padding: 10px;
   align-content: flex-start;
 }
-
 .card {
   position: absolute;
-  background-color: var(--darker);
+  background-color: var(--dark);
   border-radius: 5px;
-  height: 300px;
+  height: 200px;
   margin: 3rem 2rem;
   position: relative;
   width: 400px;
-  box-shadow: 0 2px 2px var(--secondary), 0 6px 12px var(--secondary);
 }
-
-.card .img-container {
-  overflow: hidden;
-  text-align: center;
+.card .img-container img {
+  width: 100%;
+  padding: 15px;
   border-radius: 10px;
-  background-color: var(--darker);
+  background-image: url("../src/assets/bg-image/bckgrnd.jpg");
+  box-shadow: 0 6px 12px var(--darker);
 }
-
 .card .content {
   position: absolute;
   opacity: 0;
@@ -243,36 +211,29 @@ textarea {
   font-weight: bold;
   text-align: center;
 }
-
 .card .content:hover {
   opacity: 1;
 }
-
-.card .img-container img {
-  width: 100%;
-  margin-top: 5px;
-  padding: 15px;
-}
-
 .card-title {
   font-family: "Oswald";
   font-size: 1.5em;
   margin-top: 0;
   color: var(--primary);
 }
-
 img .project-icon {
   padding: 5px;
   border-radius: 50%;
 }
-
 .footer .my-contacts {
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: var(--secondary);
 }
-
 .icon {
   padding: 10px;
+  opacity: 0.7;
+}
+.icon:hover {
+  opacity: 1.0;
 }

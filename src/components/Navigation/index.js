@@ -8,7 +8,7 @@ function Navigation() {
     <div>
       <Navbar className="flex-row" sticky="top">
         <NavLink className="nav-title-font" to="/">
-          Bota Seri
+          <div>Bota Seri</div>
         </NavLink>
 
         <ul className="flex-row navbar-nav">
