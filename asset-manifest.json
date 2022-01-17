@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/urban_famous/static/css/main.220bde31.css",
+    "main.js": "/urban_famous/static/js/main.a88fe6a2.js",
+    "static/js/787.d224705e.chunk.js": "/urban_famous/static/js/787.d224705e.chunk.js",
+    "static/media/bckgrnd.jpg": "/urban_famous/static/media/bckgrnd.612c76bf52e56da5527a.jpg",
+    "index.html": "/urban_famous/index.html",
+    "main.220bde31.css.map": "/urban_famous/static/css/main.220bde31.css.map",
+    "main.a88fe6a2.js.map": "/urban_famous/static/js/main.a88fe6a2.js.map",
+    "787.d224705e.chunk.js.map": "/urban_famous/static/js/787.d224705e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.220bde31.css",
+    "static/js/main.a88fe6a2.js"
+  ]
+}
