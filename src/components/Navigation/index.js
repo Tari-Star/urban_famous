@@ -18,7 +18,7 @@ function Navigation() {
               className="navbar__link"
               to="/about"
             >
-            <div>About</div> 
+            <div>About me</div> 
             </NavLink>
           </li>
 

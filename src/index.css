@@ -65,6 +65,7 @@ a:hover {
 }
 header {
   background-image: url("../src/assets/bg-image/bckgrnd.jpg");
+  background-repeat: repeat-x;
 }
 header a {
   color: var(--dark);
@@ -91,6 +92,11 @@ button[disabled] {
 .avatar {
   max-height: 200px;
   border-radius: 200px;
+  margin-bottom: 20px;
+}
+.bio {
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 form {
   width: 40%;
