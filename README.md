@@ -23,7 +23,7 @@ Single-page application built with React.js contains personal portfolio website
 ![screenshot](/docx/portfolio.png)
 
 ***Live URL***
-* Deployed link:
+* Deployed link:[https://tari-star.github.io/urban_famous/#/about](https://tari-star.github.io/urban_famous/#/about)
 
 ***GITHUB***
 
