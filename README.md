@@ -27,7 +27,7 @@ Single-page application built with React.js contains personal portfolio website
 
 ***GITHUB***
 
-* Repository link: [https://github.com/Tari-Star/urban_famous.git](https://github.com/Tari-Star/surban_famous.git)
+* Repository link: [https://github.com/Tari-Star/urban_famous.git](https://github.com/Tari-Star/urban_famous.git)
 
 ## Usage
 Run the following commands:
