@@ -81,7 +81,7 @@ function ContactForm() {
             name="message"
             rows="5"
             defaultValue={message}
-            onBlur={handleChange}
+            onBlur={handleChange}required
           />
         </div>
         {errorMessage && (

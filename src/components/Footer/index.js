@@ -19,7 +19,7 @@ function Footer() {
             className="icon"
           />
         </a>
-        <a href="https://www.linkedin.com/in/bota-seri-195769a5/">
+        <a href="https://twitter.com/baylaseri">
           <img
             src="https://img.icons8.com/fluent/48/000000/twitter.png"
             alt="Twitter"

@@ -1,17 +1,17 @@
 [
   {
     "id": 1,
-    "name": "Weather Dashboard",
-    "image": "https://github.com/Tari-Star/shiny-guide/raw/main/assets/image/weather.png",
-    "github": "https://github.com/Tari-Star/shiny-guide",
-    "deploy": "https://tari-star.github.io/shiny-guide/"
+    "name": "Relaxn",
+    "image": "https://github.com/Brock-Merritt/Relaxn/raw/main/client/src/assets/screenshot.png",
+    "github": "https://github.com/Brock-Merritt/Relaxn",
+    "deploy": "https://relaxn.herokuapp.com/"
   },
   {
     "id": 2,
-    "name": "Code Quiz",
-    "image": "https://github.com/Tari-Star/supreme-train/raw/main/assets/images/quiz.png",
-    "github": "https://github.com/Tari-Star/supreme-train",
-    "deploy": "https://tari-star.github.io/supreme-train/"
+    "name": "Weather Dashboard",
+    "image": "https://github.com/Tari-Star/super-adventure/raw/main/client/image/searchbooks.png",
+    "github": "https://github.com/Tari-Star/super-adventure",
+    "deploy": "https://super-adventure-21.herokuapp.com/"
   },
   {
     "id": 3,
